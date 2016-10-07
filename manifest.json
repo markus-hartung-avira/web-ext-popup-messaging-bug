@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Web Extensions Popup Messaging Bug",
+  "version": "0.1.0",
+
+  "description": "Demo extension to demonstrate messaging bug",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_title": "What's up",
+    "default_popup": "popup.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "web-ext-messaging-bug@avira.com"
+    }
+  }
+}
